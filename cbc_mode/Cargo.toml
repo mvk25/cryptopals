@@ -1,0 +1,12 @@
+[package]
+name = "cbc_mode"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+aes = "0.8.4"
+aes_ecb = { path = "../aes_ecb/"}
+base64 = "0.22.1"
+reqwest = "0.12.5"
+rust-crypto = "0.2.36"
+tokio = "1.39.2"
